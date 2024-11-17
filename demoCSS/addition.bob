@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2024-11-16 22:36:35 by afish-->
+<display version="2.0.0">
+  <name>Simple Calculation</name>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <class>TITLE</class>
+    <text>Simple Calculation</text>
+    <x use_class="true">0</x>
+    <y use_class="true">0</y>
+    <width>550</width>
+    <height>31</height>
+    <font use_class="true">
+      <font name="Header 1" family="Liberation Sans" style="BOLD" size="22.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry</name>
+    <pv_name>demo:pv1</pv_name>
+    <y>30</y>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_1</name>
+    <pv_name>demo:pv2</pv_name>
+    <y>60</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>demo:add</pv_name>
+    <y>90</y>
+  </widget>
+  <widget type="combo" version="2.0.0">
+    <name>Combo Box_1</name>
+    <pv_name>demo:add.SCAN</pv_name>
+    <x>120</x>
+    <y>90</y>
+  </widget>
+</display>

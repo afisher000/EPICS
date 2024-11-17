@@ -1,0 +1,3 @@
+epicsEnvSet("IOC","iocdemo")
+epicsEnvSet("TOP","C:/msys64/home/afish/EPICS/demoIoc")
+epicsEnvSet("EPICS_BASE","C:/msys64/home/afish/base-R7.0.4.1")
